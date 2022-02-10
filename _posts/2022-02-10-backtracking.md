@@ -94,6 +94,8 @@ void Try(Mọi giá trị của j có thể gán cho x[i])
 
 - Ví dụ: Xét bài toán in ra các xâu nhị phân có độ dài **n** bằng quay lui:
 
+- Code:
+
 ```C++
 int n;
 int x[15];
