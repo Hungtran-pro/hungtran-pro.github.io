@@ -106,7 +106,7 @@ Với Time Complexity **O(n)** ước lượng được, chúng ta sẽ có các
 Tuy nhiên, nếu ta coi độ phức tạp của thuật toán là số các phép toán sơ cấp thực hiện thì yếu tố phần cứng không còn ảnh hưởng đến quá trình xác định thời gian thực hiện của thuật toán. Với quan niệm này, độ phức tạp của thuật toán chỉ còn phụ thuộc vào kích thước của dữ liệu đầu vào.
 
 ![Bảng độ phức tạp của thuật toán](/image/BangDoPhucTapCuaThuatToan.png)
-![Biểu đồ độ phức tạp của thuật toán](/image/BieuDoDoPhucTapCuaThuatToan.png)
+![Biểu đồ độ phức tạp của thuật toán](/image/BieuDoDoPhucTapThuatToan.png)
 
 1. Các luật tính toán độ phức tạp
 
