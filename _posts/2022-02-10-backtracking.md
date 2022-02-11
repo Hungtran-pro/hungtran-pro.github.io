@@ -2,13 +2,14 @@
 
 ![Ảnh mô tả](/image/img2.jpeg)
 
- ## 1. Khái niệm:
- 
- - Quay lui là một kỹ thuật thiết kế giải thuật dựa trên đệ quy. Ý tưởng của quay lui là tìm lời giải từng bước, mỗi bước chọn một trong số các lựa chọn có thể nhận và đệ quy.
 
- - Ưu và nhược điểm:
+## 1.Khái niệm:
+ 
+- Quay lui là một kỹ thuật thiết kế giải thuật dựa trên đệ quy. Ý tưởng của quay lui là tìm lời giải từng bước, mỗi bước chọn một trong số các lựa chọn có thể nhận và đệ quy.
+
+- Ưu và nhược điểm:
 	 
-	 - Ưu điểm: Việc quay lui là thử tất cả các tổ hợp để tìm được một lời giải. Thế mạnh của phương pháp này là nhiều cài đặt tránh được việc phải thử nhiều trường hợp chưa hoàn chỉnh, nhờ đó giảm thời gian chạy.
+	- Ưu điểm: Việc quay lui là thử tất cả các tổ hợp để tìm được một lời giải. Thế mạnh của phương pháp này là nhiều cài đặt tránh được việc phải thử nhiều trường hợp chưa hoàn chỉnh, nhờ đó giảm thời gian chạy.
 
 	- Nhược điểm: Trong trường hợp xấu nhất độ phức tạp của quay lui vẫn là cấp số mũ do thường gặp phải các trường hợp sau:
 

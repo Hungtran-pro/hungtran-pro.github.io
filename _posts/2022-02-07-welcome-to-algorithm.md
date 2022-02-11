@@ -179,7 +179,7 @@ for(int i = 1; i <= n; i++){
 ```
 
 Giải thích:
-> Lượng tính toán: $$1 + 2 + ... + n = 1 / 2 + (n^2 + n) = O(n^2) $$
+> Lượng tính toán: $$1 + 2 + ... + n = \frac{1}{2} + (n^2 + n) = O(n^2) $$
 
 Lí giải cho việc này, thì có 1 định nghĩa sau đây:
 - Nếu 1 thuật toán gồm các giai đoạn liên tiếp nhau, thì tổng thời gian độ phức tạp ddwuocj tính bằng thwoif gian lớn nhất của 1 giai đoạn. Hay còn gọi là thời gian của bottleneck (nút thắt cổ chai).
