@@ -167,7 +167,7 @@ for(int i = 1; i < n; i += 2){
 ```
 Dù các dòng code ở trên chạy độc lập với nhau và có số lượng lặp là khác nhau nhưng tổng độ phức tạp vẫn được coi là **O(n)**
 
-Thuật toán sau đây được coi là có độ phức tạp ** $$n^2$$ **
+Thuật toán sau đây được coi là có độ phức tạp ** O(n^2) **
 
 ```C++
 for(int i = 1; i <= n; i++){
