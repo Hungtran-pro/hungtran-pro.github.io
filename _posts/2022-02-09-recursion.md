@@ -3,7 +3,7 @@
 ![Ảnh mô tả](/image/img1.jpg)
 
 
- ## 1. Khái niệm:
+## 1. Khái niệm:
  
 - Đệ quy là quá trình mà trong đó **một hàm gọi lại chính nó** theo một cách trực tiếp hoặc gián tiếp. Khi đó, hàm đó được gọi là **hàm đệ quy**.
 
@@ -11,7 +11,7 @@
 
 - Ví dụ: Xét bài toán tính tổng các số từ 1 đến n, ta có 2 cách tiếp cận cơ bản nhất như sau: Gọi hàm **f(n)** là hàm tính tổng các số từ 1 đến n.
 
-	 - Cách tiếp cận 1:
+	- Cách tiếp cận 1:
 	 
 		 - Cộng lần lượt các số từ 1 đến n:  **f(n)** = 1 + 2 + 3 + ... + n.
 		 
