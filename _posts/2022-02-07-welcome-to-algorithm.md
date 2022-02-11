@@ -167,7 +167,7 @@ for(int i = 1; i < n; i += 2){
 ```
 Dù các dòng code ở trên chạy độc lập với nhau và có số lượng lặp là khác nhau nhưng tổng độ phức tạp vẫn được coi là **O(n)**
 
-Thuật toán sau đây được coi là có độ phức tạp ** \(O(n^2))\ **
+Thuật toán sau đây được coi là có độ phức tạp **$O(n^2))$**
 
 ```C++
 for(int i = 1; i <= n; i++){
@@ -234,4 +234,4 @@ void g(int n){
 }
 ```
 
-## Như vậy, thông qua bài viết đầu tiên, các bạn cũng đã nắm được khái niệm thuật toán, các con số, và độ phức tạp của thuật toán. Chúng ta sẽ đến với các thuật toán kinh điển ở các trang tiếp theo.
+***Như vậy, thông qua bài viết đầu tiên, các bạn cũng đã nắm được khái niệm thuật toán, các con số, và độ phức tạp của thuật toán. Chúng ta sẽ đến với các thuật toán kinh điển ở các trang tiếp theo.***
