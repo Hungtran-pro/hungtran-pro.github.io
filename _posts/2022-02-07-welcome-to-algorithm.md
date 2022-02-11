@@ -124,7 +124,7 @@ for(int i = 1; i <= n; i++){
 }
 ```
 
-- Nếu code gồm các k vòng lặp lồng nhau và đều duyệt qua tất cả các dữ liệu đầu vào như nhau thì độ phức tạp của thuật toán là O(n^k)
+- Nếu code gồm các k vòng lặp lồng nhau và đều duyệt qua tất cả các dữ liệu đầu vào như nhau thì độ phức tạp của thuật toán là **$$O(n^k)$$**
 
 ```C++
 for(int i = 1; i <= n; i++){
@@ -167,7 +167,7 @@ for(int i = 1; i < n; i += 2){
 ```
 Dù các dòng code ở trên chạy độc lập với nhau và có số lượng lặp là khác nhau nhưng tổng độ phức tạp vẫn được coi là **O(n)**
 
-Thuật toán sau đây được coi là có độ phức tạp ** $$O(n^2)$$ **
+Thuật toán sau đây được coi là có độ phức tạp **$$O(n^2)$$**
 <!-- $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$ -->
 
 ```C++
@@ -179,7 +179,7 @@ for(int i = 1; i <= n; i++){
 ```
 
 Giải thích:
-> Lượng tính toán: 1 + 2 + ... + n = 1 / 2 + (n^2 + n) = O(n^2)
+> Lượng tính toán: $$1 + 2 + ... + n = 1 / 2 + (n^2 + n) = O(n^2) $$
 
 Lí giải cho việc này, thì có 1 định nghĩa sau đây:
 - Nếu 1 thuật toán gồm các giai đoạn liên tiếp nhau, thì tổng thời gian độ phức tạp ddwuocj tính bằng thwoif gian lớn nhất của 1 giai đoạn. Hay còn gọi là thời gian của bottleneck (nút thắt cổ chai).
