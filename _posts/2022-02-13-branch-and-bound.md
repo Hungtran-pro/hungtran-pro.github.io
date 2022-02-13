@@ -15,9 +15,9 @@ Thuật toán nhánh cận thường được dùng trong việc giải quyết 
 
 Tìm min{f(X) : X ∈ D}, với D = { X = (x1, x2, ..., xn) ∈ A1 x A2 x ... x An : X thỏa mãn tính chất P}.
 
-	- X ∈ D được gọi là một phương án của bài toán.
-	- Hàm f(X) được gọi là mục tiêu của bài toán.
-	- Miền D được gọi là tập phương án của bài toán.
+- X ∈ D được gọi là một phương án của bài toán.
+- Hàm f(X) được gọi là mục tiêu của bài toán.
+- Miền D được gọi là tập phương án của bài toán.
 
 
 Để giải quyết bài toán trên, ta có thể sử dụng thuật toán quay lui duyệt các phần tử X ∈ D, phần tử X* làm cho F(X*) đạt giá trị nhỏ nhất (hoặc lớn nhất) là phương án tối ưu của bài toán. Thuật toán nhánh cận có thể giải quyết được bài toán đặt ra nếu ta xây dựng được một hàm g xác định trên tất cả phương án bộ phận cấp k của bài toán sao cho:
