@@ -110,21 +110,21 @@ Tuy nhiên, nếu ta coi độ phức tạp của thuật toán là số các ph
 
 1. Các luật tính toán độ phức tạp
 
-- Nếu code chỉ có 1 dòng lệnh đơn thuần thì độ phức tạp là **$$O(1)$$**
+- Nếu code chỉ có 1 dòng lệnh đơn thuần thì độ phức tạp là $$O(1)$$
 ```C++
 a++;
 b++;
 c = a + b;
 ```
 
-- Nếu code gồm 1 vòng lặp và tăng giảm hằng số c thì độ phức tạp là **$$O(n)$$**
+- Nếu code gồm 1 vòng lặp và tăng giảm hằng số c thì độ phức tạp là $$O(n)$$
 ```C++
 for(int i = 1; i <= n; i++){
     <Code O(1)>
 }
 ```
 
-- Nếu code gồm các k vòng lặp lồng nhau và đều duyệt qua tất cả các dữ liệu đầu vào như nhau thì độ phức tạp của thuật toán là **$$O(n^k)$$**
+- Nếu code gồm các k vòng lặp lồng nhau và đều duyệt qua tất cả các dữ liệu đầu vào như nhau thì độ phức tạp của thuật toán là $$O(n^k)$$
 
 ```C++
 for(int i = 1; i <= n; i++){
@@ -134,7 +134,7 @@ for(int i = 1; i <= n; i++){
 } //O(n^2)
 ```
 
-- Nếu code gồm 1 vòng lặp và được chia hoặc nhân với 1 hằng số c thì độ phức tạp thuật toán là **$$O(log(n))$$**
+- Nếu code gồm 1 vòng lặp và được chia hoặc nhân với 1 hằng số c thì độ phức tạp thuật toán là $$O(log(n))$$
 
 ```C++
 for(int i = 1; i <= n; i = i * c){
@@ -142,7 +142,7 @@ for(int i = 1; i <= n; i = i * c){
 } //O(log(n))
 ```
 
-- Nếu code gồm 1 vòng lặp và được chia hoặc nhân với 1 hàm số mũ thì độ phức tạp thuật toán là **$$O(log(log(n))$$**
+- Nếu code gồm 1 vòng lặp và được chia hoặc nhân với 1 hàm số mũ thì độ phức tạp thuật toán là $$O(log(log(n))$$
 
 ```C++
 for(int i = 1; i <= n; i = pow(i, c)){
@@ -165,9 +165,9 @@ for(int i = 1; i < n; i += 2){
     <Code O(1)>
 }
 ```
-Dù các dòng code ở trên chạy độc lập với nhau và có số lượng lặp là khác nhau nhưng tổng độ phức tạp vẫn được coi là **$$O(n)$$**
+Dù các dòng code ở trên chạy độc lập với nhau và có số lượng lặp là khác nhau nhưng tổng độ phức tạp vẫn được coi là $$O(n)$$
 
-Thuật toán sau đây được coi là có độ phức tạp **$$O(n^2)$$**
+Thuật toán sau đây được coi là có độ phức tạp $$O(n^2)$$
 <!-- $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$ -->
 
 ```C++
@@ -222,9 +222,11 @@ void f(int n){
 ```
 <details><summary>Answer</summary>
 <p>
-Nhận thấy khi ta gọi **f(n)** thì chúng ta đang gọi hàm con này n lần ⇒ **$$O(n)$$**
-Tiếp theo, phần code bên trong có độ phức tạp là **$$O(1)$$**
-⇒ Tổng độ phức tạp là **$$O(n)$$**
+Nhận thấy khi ta gọi **f(n)** thì chúng ta đang gọi hàm con này n lần ⇒ $$O(n)$$
+
+Tiếp theo, phần code bên trong có độ phức tạp là $$O(1)$$
+
+⇒ Tổng độ phức tạp là $$O(n)$$
 </p>
 </details>
 
@@ -241,9 +243,11 @@ void g(int n){
 
 <details><summary>Answer</summary>
 <p>
-Nhận thấy khi ta gọi **f(n)** thì chúng ta đang gọi hàm con này n lần ⇒ **$$O(2^n)$$**
-Tiếp theo, phần code bên trong có độ phức tạp là **$$O(1)$$**
-⇒ Tổng độ phức tạp là **$$O(2^n)$$**
+Nhận thấy khi ta gọi **f(n)** thì chúng ta đang gọi hàm con này n lần ⇒ $$O(2^n)$$
+
+Tiếp theo, phần code bên trong có độ phức tạp là $$O(1)$$
+
+⇒ Tổng độ phức tạp là $$O(2^n)$$
 </p>
 </details>
 
