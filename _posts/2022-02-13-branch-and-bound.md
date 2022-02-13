@@ -9,6 +9,7 @@
 
 	- Nhờ có nhánh cận mà ta có thể đưa ra quyết định **quay lui sớm hơn** Backtracking cổ điển.
 
+
 ## Phương pháp
 
 Thuật toán nhánh cận thường được dùng trong việc giải quyết các bài toán tối ưu tổ hợp. Bài toán được phát biểu dưới dạng như sau:
@@ -19,9 +20,11 @@ Tìm min{f(X) : X ∈ D}, với D = { X = (x1, x2, ..., xn) ∈ A1 x A2 x ... x 
 	- Hàm f(X) được gọi là mục tiêu của bài toán.
 	- Miền D được gọi là tập phương án của bài toán.
 
+
 Để giải quyết bài toán trên, ta có thể sử dụng thuật toán quay lui duyệt các phần tử X ∈ D, phần tử X* làm cho F(X*) đạt giá trị nhỏ nhất (hoặc lớn nhất) là phương án tối ưu của bài toán. Thuật toán nhánh cận có thể giải quyết được bài toán đặt ra nếu ta xây dựng được một hàm g xác định trên tất cả phương án bộ phận cấp k của bài toán sao cho:
 
-		g(a1, a2, ..., ak) <= min{f(X) : X ∈ D, xi = ai, i = 1, 2, ..., k}
+	g(a1, a2, ..., ak) <= min{f(X) : X ∈ D, xi = ai, i = 1, 2, ..., k}
+
 
 Nói cách khác, giá trị của hàm g tại phương án bộ phận cấp k là g(a1, a2, ... , ak) không vượt quá giá trị nhỏ nhất của hàm mục tiêu trên tập con các phương án.
 
@@ -35,7 +38,9 @@ Nếu f* < g(a1, a2, ..., ak) thì f* <= min{f(X) : X ∈ D, xi = ai, i = 1, 2, 
 
 Điều này có nghĩa tập D(a1, a2, ..., ak) chắc chắn không chứa phương án tối ưu. Trong trường hợp này ta không cần thiết phải khai triển phương án bộ phận (a1, a2, ..., ak). Tập D(a1, a2, ..., ak) cũng bị loại bỏ khỏi quá trình duyệt. Nhờ đó, số lượng các phương án cần duyệt nhỏ đi trong quá trình tìm kiếm. Thuật toán nhánh cận tổng quát được mô tả chi tiết như sau:
 
+
 ![Ảnh mô tả](/image/branchandbound.jpg)
+
 
 ## Ví dụ
 
@@ -51,7 +56,6 @@ Một nhà thám hiểm cần đem theo 1 cái tụi trọng lượng không vư
 	- Dòng đầu tiên ghi lại giá trị tối ưu của bài toán.
 	- Dòng kế tiếp ghi lại phương án tối ưu của bài toán.
 
-Ví dụ:
 ![Ảnh mô tả](/image/caitui.png)
 
 Chương trình giải quyết bài toán được thực hiện như dưới đây:
