@@ -25,7 +25,7 @@ Tìm min{f(X) : X ∈ D}, với D = { X = (x1, x2, ..., xn) ∈ A1 x A2 x ... x 
 	g(a1, a2, ..., ak) <= min{f(X) : X ∈ D, xi = ai, i = 1, 2, ..., k}
 
 
-Nói cách khác, giá trị của hàm g tại phương án bộ phận cấp k là g(a1, a2, ... , ak) không vượt quá giá trị nhỏ nhất của hàm mục tiêu trên tập con các phương án.
+Nói cách khác, giá trị của hàm g tại phương án bộ phận cấp k là g(a1, a2, ... , ak) không vượt quá giá trị nhỏ nhất của hàm mục tiêu trên tập con các phương án:
 
 	D(a1, a2, ..., ak) = {X ∈ D: xi = ai, i = 1, 2, ..., k}
 
@@ -47,11 +47,11 @@ Giải bài toán cái túi bằng thuật toán nhánh cận.
 
 Một nhà thám hiểm cần đem theo 1 cái tụi trọng lượng không vượt quá b. Có n đồ vật cần đen theo. Đồ vật thứ i có trọng lượng ai và giá trị sử dụng ci. Hãy tìm cách đưa đồ vật vào túi cho nhà thám hiểm sao cho tổng giá trị sử dụng các đồ vật trong túi là lớn nhất.
 
-**Caitui.in:**
+**Input:**
 	- Dòng đầu tiên ghi lại 2 số n và b tương ứng với số lượng đồ vật và trọng lượng tối đa của túi.
 	- N dòng kế tiếp, mỗi dòng ghi lại bộ đôi ai, ci tương ứng với trọng lượng và giá trị sử dụng của vật thứ i.
 
-**Ketqua.out:** 
+**Output:** 
 	- Dòng đầu tiên ghi lại giá trị tối ưu của bài toán.
 	- Dòng kế tiếp ghi lại phương án tối ưu của bài toán.
 
