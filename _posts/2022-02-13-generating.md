@@ -8,7 +8,7 @@
 
 Thuật toán:
 
-```
+```pascal
 Begin:
 Bước 1: (bước khởi tạo)
     <Thiết lập cấu hình đầu tiên>;
