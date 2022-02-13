@@ -22,4 +22,52 @@ End
 
 Bài tập: Liệt kê dãy nhị phân có độ dài là n
 
-Ví dụ: n = 4
+Ví dụ: n = 4.
+
+| STT | Dãy | STT | Dãy |
+| 0 | 0 0 0 0 | 8 | 1 0 0 0 |
+| 1 | 0 0 0 1 | 9 | 1 0 0 1 |
+| 2 | 0 0 1 0 | 10 | 1 0 1 0 |
+| 3 | 0 0 1 1 | 11 | 1 0 1 1 |
+| 4 | 0 1 0 0 | 12 | 1 1 0 0 |
+| 5 | 0 1 0 1 | 13 | 1 1 0 1 |
+| 6 | 0 1 1 0 | 14 | 1 1 1 0 |
+| 7 | 0 1 1 1 | 15 | 1 1 1 1 |
+
+*Dựa trên điều kiện thuật toán sinh, hãy tìm điểm đầu, điểm cuối và quy luật sinh của thuật toán?*
+<details><summary>Answer</summary>
+<p>
+
+#### We can hide anything, even code!
+
+    ```ruby
+      puts "Hello World"
+    ```
+
+</p>
+</details>
+
+Bài tập: Liệt kê tất cả các hoán bị n phần tử từ 1 ⇒ n.
+
+Ví dụ: n = 3.
+
+| STT | Dãy |
+| 0 | 1 2 3 |
+| 1 | 1 3 2 |
+| 2 | 2 1 3 |
+| 3 | 2 3 1 |
+| 4 | 3 1 2 |
+| 5 | 3 2 1 |
+
+*Dựa trên điều kiện thuật toán sinh, hãy tìm điểm đầu, điểm cuối và quy luật sinh của thuật toán?*
+<details><summary>Answer</summary>
+<p>
+
+#### We can hide anything, even code!
+
+    ```ruby
+      puts "Hello World"
+    ```
+
+</p>
+</details>
