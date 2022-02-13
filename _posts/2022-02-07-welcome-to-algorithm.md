@@ -1,10 +1,12 @@
 <!-- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax -->
 
+![Ảnh bìa](/image/WTA.png)
+
 # Chào mừng các bạn đến blog thuật toán cơ bản
 
 Đầu tiên, chúng ta sẽ cùng nhau đi tìm hiểu các khái niệm cơ bản của thuật toán.
 
-## Thuật toán là gì?
+## I. Thuật toán là gì?
 
 Thuật là phương pháp, toán là toán học. Vậy nên, thuật toán là phương pháp toán học. Cụ thể hơn, ở mỗi bài toán, chúng ta sẽ cần tìm ra thuật toán phù hợp nhất với đề bài và áp dụng để giải quyết bài toán đó sao cho thời gian là ngắn nhất và quá trình xử lý là nhanh nhất có thể.
 
@@ -16,7 +18,7 @@ Như vậy là các bạn đã có cái nhìn tổng quát về thuật toán l�
 
 ***Lưu ý: Trong bài viết này, chúng ta sẽ sử dụng ngôn ngữ lập trình C++ là chủ yếu.***
 
-## I. Làm việc với các con số
+## II. Làm việc với các con số
 
 - Các dạng số nguyên (int, long, long long)
 Một số lỗi thường gặp:
@@ -93,7 +95,7 @@ Tuy nhiên, cái trên chỉ sử dụng khi chúng ta có phép trừ hay phép
 
 ***Lưu ý: Code ngắn chưa chắc đã đúng và thời gian chạy ngắn nhất***
 
-## II. Time Complexity (Độ phức tạp thuật toán)
+## III. Time Complexity (Độ phức tạp thuật toán)
 
 Một bài toán có thể thực hiện bằng nhiều thuật toán khác nhau. Lựa chọn giải thuật nhanh nhất để giải quyết bài toán là một nhu cầu của thực tế. Vì vậy cần phải có một ước lượng cụ thể bằng toán học để xác định mức độ nhanh chậm của mỗi giải thuật.
 
@@ -169,6 +171,7 @@ Dù các dòng code ở trên chạy độc lập với nhau và có số lượ
 
 Thuật toán sau đây được coi là có độ phức tạp $O(n^2)$
 <!-- $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$ -->
+Answer
 
 ```C++
 for(int i = 1; i <= n; i++){
