@@ -223,9 +223,7 @@ void f(int n){
 <details><summary>Answer</summary>
 <p>
 Nhận thấy khi ta gọi **f(n)** thì chúng ta đang gọi hàm con này n lần ⇒ **$$O(n)$$**
-
 Tiếp theo, phần code bên trong có độ phức tạp là **$$O(1)$$**
-
 ⇒ Tổng độ phức tạp là **$$O(n)$$**
 </p>
 </details>
@@ -244,9 +242,7 @@ void g(int n){
 <details><summary>Answer</summary>
 <p>
 Nhận thấy khi ta gọi **f(n)** thì chúng ta đang gọi hàm con này n lần ⇒ **$$O(2^n)$$**
-
 Tiếp theo, phần code bên trong có độ phức tạp là **$$O(1)$$**
-
 ⇒ Tổng độ phức tạp là **$$O(2^n)$$**
 </p>
 </details>
