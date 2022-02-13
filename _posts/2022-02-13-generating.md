@@ -1,6 +1,8 @@
+# Thuật toán sinh (Generative Algorithm)
+
 ![Ảnh giới thiệu thuật toán sinh](/image/thuatToanSinh.png)
 
-## Thuật toán sinh (Generative Algorithm)
+## 1. Khái niệm
 
 - Mô hình thuật toán sinh được dùng để giải các bài toán liệt kê, bài toán đếm, vài toán tối ưu, bài toán tồn tại thỏa mã hai điều kiện:
     - Xác định được điểm đầu và điểm cuối của thuật toán.
@@ -20,7 +22,9 @@ endwhile;
 End
 ```
 
-Bài tập: Liệt kê dãy nhị phân có độ dài là n
+## 2. Bài tập
+
+Bài tập 1: Liệt kê dãy nhị phân có độ dài là n
 
 Ví dụ: n = 4.
 
@@ -47,7 +51,7 @@ Ví dụ: n = 4.
 </p>
 </details>
 
-Bài tập: Liệt kê tất cả các hoán bị n phần tử từ 1 ⇒ n.
+Bài tập 2: Liệt kê tất cả các hoán bị n phần tử từ 1 ⇒ n.
 
 Ví dụ: n = 3.
 
