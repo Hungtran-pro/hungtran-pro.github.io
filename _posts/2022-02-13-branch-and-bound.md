@@ -47,14 +47,6 @@ Giải bài toán cái túi bằng thuật toán nhánh cận.
 
 Một nhà thám hiểm cần đem theo 1 cái tụi trọng lượng không vượt quá b. Có n đồ vật cần đem theo. Đồ vật thứ i có trọng lượng ai và giá trị sử dụng ci. Hãy tìm cách đưa đồ vật vào túi cho nhà thám hiểm sao cho tổng giá trị sử dụng các đồ vật trong túi là lớn nhất.
 
-**Input:**
-	- Dòng đầu tiên ghi lại 2 số n và b tương ứng với số lượng đồ vật và trọng lượng tối đa của túi.
-	- N dòng kế tiếp, mỗi dòng ghi lại bộ đôi ai, ci tương ứng với trọng lượng và giá trị sử dụng của vật thứ i.
-
-**Output:** 
-	- Dòng đầu tiên ghi lại giá trị tối ưu của bài toán.
-	- Dòng kế tiếp ghi lại phương án tối ưu của bài toán.
-
 ![Ảnh mô tả](/image/caitui.png)
 
 Chương trình giải quyết bài toán được thực hiện như dưới đây:
