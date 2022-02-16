@@ -42,14 +42,11 @@ Ví dụ: n = 4.
 <details><summary>Answer</summary>
 <p>
 
+** Điểm đầu **: 0 0 0 0
 
-**Điểm đầu**: 0 0 0 0
+** Điểm cuối **: 1 1 1 1
 
-
-**Điểm cuối**: 1 1 1 1
-
-
-**Quy luật**: Nhìn từ trái qua phải, nếu gặp số 0 ta chuyển thành 1 và tất cả các số bên phải chuyển về 0.
+** Quy luật **: Nhìn từ trái qua phải, nếu gặp số 0 ta chuyển thành 1 và tất cả các số bên phải chuyển về 0.
 </p>
 </details>
 
