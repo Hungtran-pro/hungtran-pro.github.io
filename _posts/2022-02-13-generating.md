@@ -50,7 +50,7 @@ Ví dụ: n = 4.
 </p>
 </details>
 
-```C++
+```CPP
 #include<iostream>
 using namespace std;
 #define ll long long
@@ -121,7 +121,7 @@ Ví dụ: n = 3.
 </p>
 </details>
 
-```C++
+```CPP
 #include<iostream>
 using namespace std;
 #define ll long long
