@@ -41,6 +41,8 @@ Ví dụ: n = 4.
 
 *Dựa trên điều kiện thuật toán sinh, hãy tìm điểm đầu, điểm cuối và quy luật sinh của thuật toán?*
 
+
+
 ```CPP
 #include<iostream>
 using namespace std;
@@ -99,6 +101,8 @@ Ví dụ: n = 3.
 |  5  | 3 2 1 |
 
 *Dựa trên điều kiện thuật toán sinh, hãy tìm điểm đầu, điểm cuối và quy luật sinh của thuật toán?*
+
+
 
 ```CPP
 #include<iostream>
