@@ -3,7 +3,7 @@ Quy hoạch động (Dynamic Programming) là kĩ thuật được được dùn
 
 ![markdown](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/jl21im7uz7_1.JPG)
 
-Vậy chúng ta cùng tìm hiểu xem Quy hoạch động là gì?
+Vậy chúng ta cùng tìm hiểu xem quy hoạch động là gì?
 
 ### 1. Quy hoạch động là gì?
 
