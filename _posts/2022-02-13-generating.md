@@ -40,16 +40,6 @@ Ví dụ: n = 4.
 |  7  | 0 1 1 1 |  15 | 1 1 1 1 |
 
 *Dựa trên điều kiện thuật toán sinh, hãy tìm điểm đầu, điểm cuối và quy luật sinh của thuật toán?*
-<details><summary>Answer</summary>
-<p>
-
-** Điểm đầu **: 0 0 0 0
-
-** Điểm cuối **: 1 1 1 1
-
-** Quy luật **: Nhìn từ trái qua phải, nếu gặp số 0 ta chuyển thành 1 và tất cả các số bên phải chuyển về 0.
-</p>
-</details>
 
 ```CPP
 #include<iostream>
@@ -109,19 +99,6 @@ Ví dụ: n = 3.
 |  5  | 3 2 1 |
 
 *Dựa trên điều kiện thuật toán sinh, hãy tìm điểm đầu, điểm cuối và quy luật sinh của thuật toán?*
-<details><summary>Answer</summary>
-<p>
-
-
-**Điểm đầu**: 1 2 3
-
-
-**Điểm cuối**: 3 2 1
-
-
-**Quy luật**: Nhìn từ trái qua phải, nếu gặp số tại vị trí x nhỏ hơn số tại vị trí x - 1 thì đánh dấu trị trí **x - 1** và tìm kiếm vị trí số bé nhất, sau đó thực hiện bước đảo và sắp xếp lại dãy vế sau.
-</p>
-</details>
 
 ```CPP
 #include<iostream>
@@ -169,15 +146,3 @@ int main(){
     cout << "Chuong trinh chay xong!";
 }
 ```
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### We can hide anything, even code!
-
-    ```ruby
-      puts "Hello World"
-    ```
-
-</p>
-</details>
