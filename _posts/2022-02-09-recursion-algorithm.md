@@ -1,4 +1,4 @@
-# Đệ quy (Recursion)
+# Thuật toán đệ quy (Recursion Algorithm)
 
 ![Ảnh mô tả](/image/img1.jpg)
 

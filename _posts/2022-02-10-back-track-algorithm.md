@@ -1,4 +1,4 @@
-# Quay lui (Backtracking)
+# Thuật toán quay lui (Backtracking Algorithm)
 
 ![Ảnh mô tả](/image/img2.jpeg)
 

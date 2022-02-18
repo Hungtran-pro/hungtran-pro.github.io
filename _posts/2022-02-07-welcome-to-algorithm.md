@@ -1,8 +1,7 @@
 <!-- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax -->
+# Chào mừng các bạn đến blog thuật toán cơ bản
 
 ![Ảnh bìa](/image/WTA.png)
-
-# Chào mừng các bạn đến blog thuật toán cơ bản
 
 Đầu tiên, chúng ta sẽ cùng nhau đi tìm hiểu các khái niệm cơ bản của thuật toán.
 

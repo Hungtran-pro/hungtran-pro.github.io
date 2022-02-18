@@ -1,5 +1,4 @@
-﻿
-# Greedy Algorithms
+﻿# Giải thuật tham lam (Greedy Algorithms)
  1.[Giới thiệu mô hình Tham lam](#1)
  2. [Các nội dung trong việc xây dựng giải pháp Tham lam](#2)
  3. [Một số bài tập sử dụng Tham lam.](#3)

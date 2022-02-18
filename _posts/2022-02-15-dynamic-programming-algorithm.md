@@ -1,4 +1,4 @@
-# Quy hoạch động 
+# Thuật toán quy hoạch động (Dynamic Programming Algorithm)
 Quy hoạch động (Dynamic Programming) là kĩ thuật được được dùng khi có một công thức truy hồi và một (hoặc một vài) trạng thái bắt đầu. Một bài toán được tính bởi các bài toán nhỏ hơn đã tìm ra trước đó (được lưu lại kết quả) giúp chúng ta giảm độ phức tạp của một số bài toán nhưng ngược lại cần rất nhiều không gian vật lý để lưu trữ.
 
 ![markdown](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/jl21im7uz7_1.JPG)
