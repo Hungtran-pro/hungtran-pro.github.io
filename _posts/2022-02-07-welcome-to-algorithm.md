@@ -222,17 +222,6 @@ void f(int n){
     f(n-1);
 }
 ```
-<details><summary>Answer</summary>
-<p>
-
-Nhận thấy khi ta gọi **f(n)** thì chúng ta đang gọi hàm con này n lần ⇒ $O(n)$
-
-Tiếp theo, phần code bên trong có độ phức tạp là $O(1)$
-
-⇒ Tổng độ phức tạp là $O(n)$
-</p>
-</details>
-
 
 Vậy độ phức tạp của thuật toán dưới đây là bao nhiêu?
 
@@ -243,17 +232,6 @@ void g(int n){
     g(n-1);
 }
 ```
-
-<details><summary>Answer</summary>
-<p>
-
-Nhận thấy khi ta gọi **f(n)** thì chúng ta đang gọi hàm con này n lần ⇒ $O(2^n)$
-
-Tiếp theo, phần code bên trong có độ phức tạp là $O(1)$
-
-⇒ Tổng độ phức tạp là $O(2^n)$
-</p>
-</details>
 
 ***Như vậy, thông qua bài viết đầu tiên, các bạn cũng đã nắm được khái niệm thuật toán, các con số, và độ phức tạp của thuật toán. Chúng ta sẽ đến với các thuật toán kinh điển ở các trang tiếp theo.***
 
