@@ -1,4 +1,4 @@
-# Thuật toán sinh (Generative Algorithm)
+# Generative Algorithm
 
 ![Ảnh giới thiệu thuật toán sinh](/image/thuatToanSinh.png)
 

@@ -1,5 +1,4 @@
-<!-- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax -->
-# Chào mừng các bạn đến blog thuật toán cơ bản
+# Welcome to basic algorithms
 
 ![Ảnh bìa](/image/WTA.png)
 

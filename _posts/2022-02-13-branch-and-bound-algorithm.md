@@ -1,4 +1,4 @@
-# Thuật toán nhánh cận (Branch and Bound Algorithm)
+# Branch and Bound Algorithm
 
 ![Ảnh mô tả](/image/10022022.png)
 
