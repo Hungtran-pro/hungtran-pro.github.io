@@ -256,3 +256,14 @@ Tiếp theo, phần code bên trong có độ phức tạp là $O(1)$
 </details>
 
 ***Như vậy, thông qua bài viết đầu tiên, các bạn cũng đã nắm được khái niệm thuật toán, các con số, và độ phức tạp của thuật toán. Chúng ta sẽ đến với các thuật toán kinh điển ở các trang tiếp theo.***
+
+**Bài tập:**
+1. https://www.spoj.com/PTIT/problems/BCPENNY/
+2. https://www.spoj.com/PTIT/problems/BCCOM/
+3. https://www.spoj.com/PTIT/problems/BCTHIDAU/
+4. https://www.spoj.com/PTIT/problems/BCBOM/
+5. https://www.spoj.com/PTIT/problems/BCPTICH/
+7. https://www.spoj.com/PTIT/problems/ALGOPRO4/
+8. https://www.spoj.com/PTIT/problems/PTIT125J/
+9. https://www.spoj.com/PTIT/problems/PTIT128H/
+10. https://www.spoj.com/PTIT/problems/BCNEPER/
