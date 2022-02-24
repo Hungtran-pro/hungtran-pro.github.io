@@ -213,7 +213,7 @@ for(int i = 1; i < 5 + n; i++){
 } //O(nm)
 ```
 
-Vậy tổng lượng thời gian của phép đệ quy sau đây là bao nhiêu?
+Tổng lượng thời gian của phép đệ quy sau đây là bao nhiêu?
 
 ```C++
 void f(int n){
@@ -222,7 +222,7 @@ void f(int n){
 }
 ```
 
-Vậy độ phức tạp của thuật toán dưới đây là bao nhiêu?
+Độ phức tạp của thuật toán dưới đây là bao nhiêu?
 
 ```C++
 void g(int n){
