@@ -240,7 +240,8 @@ void g(int n){
 3. https://www.spoj.com/PTIT/problems/BCTHIDAU/
 4. https://www.spoj.com/PTIT/problems/BCBOM/
 5. https://www.spoj.com/PTIT/problems/BCPTICH/
-7. https://www.spoj.com/PTIT/problems/ALGOPRO4/
-8. https://www.spoj.com/PTIT/problems/PTIT125J/
-9. https://www.spoj.com/PTIT/problems/PTIT128H/
-10. https://www.spoj.com/PTIT/problems/BCNEPER/
+6. https://www.spoj.com/PTIT/problems/ALGOPRO4/
+7. https://www.spoj.com/PTIT/problems/PTIT125J/
+8. https://www.spoj.com/PTIT/problems/PTIT128H/
+9. https://www.spoj.com/PTIT/problems/BCNEPER/
+10. 
