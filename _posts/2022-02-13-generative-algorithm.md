@@ -87,7 +87,7 @@ int main(){
 }
 ```
 
-**Bài tập 2**: Liệt kê tất cả các hoán bị n phần tử từ 1 ⇒ n.
+**Bài tập 2**: Liệt kê tất cả các hoán vị n phần tử từ 1 ⇒ n.
 
 Ví dụ: n = 3.
 
