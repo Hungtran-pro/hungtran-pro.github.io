@@ -149,4 +149,5 @@ int main(){
     }
     cout << "Chuong trinh chay xong!";
 }
-``
+```
+[GA.pdf](https://github.com/Hungtran-pro/hungtran-pro.github.io/files/8176051/GA.pdf)
